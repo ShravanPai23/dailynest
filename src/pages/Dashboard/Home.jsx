@@ -1,9 +1,9 @@
 // src/pages/Dashboard/Home.jsx
-import React from "react";
-import { useSelector, useDispatch } from "react-redux;
-import TaskForm from "../../components/TaskForm";
+import TaskForm from "../../components/Form.jsx";
 import TaskCard from "../../components/TaskCard";
+import { useSelector, useDispatch } from "react-redux";
 import { setFilter } from "../../features/tasks/taskSlice";
+import React from "react";
 
 const Home = () => {
   const dispatch = useDispatch();

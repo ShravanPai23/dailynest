@@ -3,10 +3,9 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTask } from "../features/tasks/taskSlice";
 import { v4 as uuidv4 } from "uuid";
-
 import React from "react";
 
-const TaskForm = () => {
+const Form = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [important, setImportant] = useState(false);
@@ -68,4 +67,4 @@ const TaskForm = () => {
   );
 };
 
-export default TaskForm;
+export default Form;
