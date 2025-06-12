@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import React from "react";
 
-const Taskform = () => {
+const TaskForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [important, setImportant] = useState(false);
@@ -68,4 +68,4 @@ const Taskform = () => {
   );
 };
 
-export default Taskform;
+export default TaskForm;
